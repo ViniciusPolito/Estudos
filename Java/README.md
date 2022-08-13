@@ -45,6 +45,10 @@ A JVM vai receber o Byte Code (.class) para traduzir as instruções do código,
 
 Código Java (.java) -> Byte Code (.class) -> Linguagem que o SO entende. <br>
 
+### javac
+
+javac é o compilador primário da linguagem Java, incluído no Java Development Kit da Oracle Corporation.
+
 ### Curiosidade
 
 Já falamos um pouco sobre o Bytecode que é um código de máquina parecido com o Assembly. Talvez você (como eu!) estranhou o nome Bytecode, no entanto, tem uma explicação bem simples para tal. Existe um conjunto de comandos que a máquina virtual Java entende. Esses comandos também são chamados de _opcodes (operation code)_, e cada opcode possui o tamanho de exatamente 1 Byte! E aí temos um opcode de 1 Byte ou, mais simples, **Bytecode**. :)
