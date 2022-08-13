@@ -44,3 +44,8 @@ Utilizando compiladores, bytecodes podem ser traduzidos em tempo de execução p
 A JVM vai receber o Byte Code (.class) para traduzir as instruções do código, em algo que o sistema operacional entenda. <br>
 
 Código Java (.java) -> Byte Code (.class) -> Linguagem que o SO entende. <br>
+
+### Curiosidade
+
+Já falamos um pouco sobre o Bytecode que é um código de máquina parecido com o Assembly. Talvez você (como eu!) estranhou o nome Bytecode, no entanto, tem uma explicação bem simples para tal. Existe um conjunto de comandos que a máquina virtual Java entende. Esses comandos também são chamados de _opcodes (operation code)_, e cada opcode possui o tamanho de exatamente 1 Byte! E aí temos um opcode de 1 Byte ou, mais simples, **Bytecode**. :)
+
