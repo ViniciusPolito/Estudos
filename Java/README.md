@@ -35,7 +35,9 @@ Facilita desenvolvimento exploratório. Perde em eficiência.
 **Compilada:**
 Utilizando compiladores, bytecodes podem ser traduzidos em tempo de execução para código de máquina.
 
-## Significados
+## JVM, JRE, JDK
+
+![gfgjdk-660x423](https://user-images.githubusercontent.com/41132563/184511026-e748e6f9-8735-46ce-84d8-fa623fba10cc.jpg)
 
 ### JVM (Java Virtual Machine)
 
@@ -45,11 +47,21 @@ A JVM vai receber o Byte Code (.class) para traduzir as instruções do código,
 
 Código Java (.java) -> Byte Code (.class) -> Linguagem que o SO entende. <br>
 
+### JRE
+
+Java Runtime Environment significa Ambiente de Tempo de Execução Java, e é utilizado para executar as aplicações da plataforma Java.
+
+### JDK
+
+Java Development Kit significa Kit de Desenvolvimento Java, e é um conjunto de utilitários que permitem criar sistemas de software para a plataforma Java. É composto por compilador e bibliotecas.
+
+## Curiosidades
+
 ### javac
 
 javac é o compilador primário da linguagem Java, incluído no Java Development Kit da Oracle Corporation.
 
-### Curiosidade
+### Bytecode
 
 Já falamos um pouco sobre o Bytecode que é um código de máquina parecido com o Assembly. Talvez você (como eu!) estranhou o nome Bytecode, no entanto, tem uma explicação bem simples para tal. Existe um conjunto de comandos que a máquina virtual Java entende. Esses comandos também são chamados de _opcodes (operation code)_, e cada opcode possui o tamanho de exatamente 1 Byte! E aí temos um opcode de 1 Byte ou, mais simples, **Bytecode**. :)
 
